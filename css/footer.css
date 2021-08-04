@@ -1,0 +1,37 @@
+footer {
+  height: 413px;
+  padding-top: 56px;
+}
+
+.social div {
+  height: 40px;
+  width: 40px;
+}
+
+.social div:first-child {
+  padding-right: 17px;
+}
+
+.facebook{
+  background: transparent url('../img/facebook.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.twitter{
+  background: transparent url('../img/twitter.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+footer p {
+  text-align: left;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.footer-links a:first-child {
+  padding-right: 21px;
+}
+
+.footer-text p:nth-child(2n) {
+  padding: 10px 0;
+  }

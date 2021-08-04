@@ -1,0 +1,87 @@
+
+.skill_one_item{
+  width: 330px;
+  margin: 0 auto 62px auto;
+}
+
+.skills_items{
+  padding-top: 35px;
+}
+.skills_header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.skills_header_gray{
+  text-align: center;
+  font: normal normal 300 48px/70px Poppins;
+  letter-spacing: 1.44px;
+  color: #444444;
+}
+.skills_header_red{
+  text-align: center;
+  font: normal normal 300 48px/70px Poppins;
+  letter-spacing: 1.44px;
+  color: #BC1F2A;
+  margin: 0 19px;
+  font-weight: 600;
+}
+
+.skills_header p {
+  text-align: center;
+  font: normal normal 300 36px/70px Poppins;
+  letter-spacing: 1.08px;
+  color: #888888;
+  opacity: 1;
+  padding-top: 0;
+}
+
+.skills_items div:nth-child(1) .skill_one_item_icon {
+  background: transparent url('../img/group.svg') 0% 0% no-repeat padding-box ;
+}
+.skills_items div:nth-child(2) .skill_one_item_icon {
+  background: transparent url('../img/target.svg') 0% 0% no-repeat padding-box ;
+}
+.skills_items div:nth-child(3) .skill_one_item_icon {
+  background: transparent url('../img/profits.svg') 0% 0% no-repeat padding-box ;
+}
+.skills_items div:nth-child(4) .skill_one_item_icon {
+  background: transparent url('../img/shopping-cart.svg') 0% 0% no-repeat padding-box ;
+}
+.skills_items div:nth-child(5) .skill_one_item_icon {
+  background: transparent url('../img/chat.svg') 0% 0% no-repeat padding-box ;
+}
+.skills_items div:nth-child(6) .skill_one_item_icon {
+  background: transparent url('../img/more.svg') 0% 0% no-repeat padding-box ;
+}
+
+.skill_one_item_icon{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #FFFFFF;
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+
+
+.skill_one_item_header {
+  text-align: center;
+  font: normal normal 600 24px/48px Poppins;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+}
+
+.skill_one_item_text {
+  text-align: center;
+  font: normal normal normal 16px/26px Poppins;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+}
